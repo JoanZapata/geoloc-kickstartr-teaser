@@ -4,6 +4,7 @@ $content-width: 774px;
 $color-text-base: #594569;
 $color-geoloc: #08BC88;
 $margin-small: 10px;
+$margin-big: 30px;
 
 // FONTS
 
@@ -74,12 +75,14 @@ a {
     background: transparent url('../images/logo-head.png') no-repeat center bottom;
     background-size: cover;
     width: 100%;
+    margin-top: $margin-small;
 }
 
 .tail {
     background: transparent url('../images/logo-tail.png') no-repeat center top;
     background-size: cover;
     width: 100%;
+    margin-bottom: $margin-big;
 }
 
 .bottom {

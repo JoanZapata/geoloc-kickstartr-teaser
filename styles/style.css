@@ -44,12 +44,14 @@ a:hover {
 .head {
   background: transparent url("../images/logo-head.png") no-repeat center bottom;
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+  margin-top: 10px; }
 
 .tail {
   background: transparent url("../images/logo-tail.png") no-repeat center top;
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 30px; }
 
 .bottom {
   width: 100%;
