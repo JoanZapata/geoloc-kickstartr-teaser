@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background: whitesmoke;
+  font-family: "Lato";
+  font-weight: 100;
+  font-size: 1.3em;
+  color: #594569; }
+
+strong, .geolockickstartr {
+  font-weight: 400; }
+
+a:link, a:visited {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -ms-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  color: #08bc88;
+  text-decoration: none;
+  font-weight: 400; }
+a:hover {
+  color: #09d49a; }
+
+.geolockickstartr {
+  font-family: Lobster; }
+
+.block {
+  display: block; }
+
+.container {
+  width: 100%;
+  max-width: 774px;
+  margin: 0px auto; }
+
+.soon {
+  font-size: 1.8em;
+  font-family: "Lobster";
+  text-align: center;
+  color: #08bc88; }
+
+.head {
+  background: transparent url("../images/logo-head.png") no-repeat center bottom;
+  background-size: cover;
+  width: 100%; }
+
+.tail {
+  background: transparent url("../images/logo-tail.png") no-repeat center top;
+  background-size: cover;
+  width: 100%; }
+
+.bottom {
+  width: 100%;
+  height: 2px;
+  background: #08bc88;
+  margin-bottom: 10px; }
+
+@media (max-width: 774px) {
+  p {
+    margin-left: 10px;
+    margin-right: 10px; } }
